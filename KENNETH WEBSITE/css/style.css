@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.circles{
+    border-radius: 100rem;
+    position: absolute;
+}
+.ca{
+    background-color: rgb(43, 131, 231);
+    width: 20rem;
+    height: 20rem;
+    z-index: -1;
+    top: -5%;
+    left: -5%;
+    opacity: 0.5;
+}
+.cb{
+    background-color: rgb(43, 131, 231);
+    width: 3rem;
+    height: 3rem;
+    z-index: -1;
+    top: 5%;
+    left: 25%;
+    opacity: 0.5;
+}
+.cc{
+    background-color: rgb(43, 131, 231);
+    width: 2rem;
+    height: 2rem;
+    z-index: -1;
+    bottom: 10%;
+    left: 20%;
+    opacity: 0.5;
+}
+.cd{
+    background-color: rgb(43, 131, 231);
+    width: 5rem;
+    height: 5rem;
+    z-index: -1;
+    bottom: 3%;
+    left: 30%;
+    opacity: 0.5;
+}
+.ce{
+    background-color: rgb(231, 43, 184);
+    width: 21rem;
+    height: 21rem;
+    z-index: -1;
+    right: -8%;
+    top: -8%;
+    opacity: 0.5;
+}
+.cf{
+    background-color: rgb(231, 43, 184);
+    width: 10rem;
+    height: 10rem;
+    z-index: -1;
+    right: 31%;
+    top: 3%;
+    opacity: 0.5;
+}
+.cg{
+    background-color: rgb(231, 43, 184);
+    width: 5rem;
+    height: 5rem;
+    z-index: -1;
+    right: 35%;
+    bottom: 5%;
+    opacity: 0.5;
+}
+.ch{
+    background-color: rgb(231, 43, 184);
+    width: 2rem;
+    height: 2rem;
+    z-index: -1;
+    right: 15%;
+    bottom: 5%;
+    opacity: 0.5;
+}
+
+
+.ken-main, .shaq-main{
+    position: relative;
+    width: 50%;
+}
+.ken-main{
+
+}
+.shaq-main{
+
+}
+.ken-main .ken-holder{
+    padding-left: 10%;
+    width: 40rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%);
+}
+.ken-main .ken-holder h1{
+    color: rgb(43, 131, 231);
+}
+.shaq-main .shaq-holder{
+    padding-left: 10%;
+    width: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%);
+}
+.shaq-main .shaq-holder h1{
+    color: rgb(231, 43, 184);
+}
+
+p{
+    max-width: 28%;
+    font-family:'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    color: slategray;
+    margin-bottom: 1rem;
+
+}
+h1{
+    font-family:'League Spartan', sans-serif;
+    font-size: 3rem;
+    margin: 3rem 0rem 1rem 0rem;
+    z-index: 3;
+}
+
+button{
+    margin-bottom: 3rem;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.btn-a{
+    background-color: rgb(43, 131, 231);
+}
+.btn-a:hover{
+    background-color: rgba(43, 131, 231, 0.5);
+}
+.btn-b{
+    background-color: rgb(231, 43, 184);
+}
+.btn-b:hover{
+    background-color: rgb(231, 43, 184, 0.5);
+}
+
+.image-holder-a, .image-holder-b{
+    background-color: gray;
+    width: 20rem;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 40%;
+    overflow: hidden;
+    object-position: center;
+    height: 100%;
+}
+
+.image-holder-a img{
+    position: absolute;
+    width: 100%;
+    
+}
+.image-holder-b img{
+    position: absolute;
+    width: 100%;
+    
+}
